@@ -44,7 +44,7 @@ public class LiveDisplayVendorImpl {
 
             final int features = native_getSupportedFeatures();
             if (features > 0) {
-                Log.i(TAG, "Using native LiveDisplay backend (features: " + sFeatures + ")");
+                Log.i(TAG, "Using native LiveDisplay backend (features: " + features + ")");
             }
 
             sNativeLibraryLoaded = features > 0;
